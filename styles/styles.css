@@ -1,0 +1,30 @@
+.distortion {
+  width: 640px;
+  height: 920px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.landing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100vh;
+}
+
+.intro {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.intro h2 {
+  font-size: 50px;
+}
+
+.intro p {
+  font-size: 25px;
+}
+/*# sourceMappingURL=styles.css.map */

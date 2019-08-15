@@ -1,0 +1,30 @@
+@mixin images($width, $height){
+    width:$width;
+    height:$height;
+}
+
+@mixin flexSpaceAround(){
+display: flex;
+justify-content: space-around;
+height:  100vh;
+}
+
+.distortion{
+    @include images(640px, 920px);
+    align-self:flex-end;
+}
+
+.landing {
+    @include flexSpaceAround()
+}
+
+.intro {
+    align-self:center;
+        h2{
+            font-size: 50px;
+        }
+
+        p{
+            font-size: 25px;
+        }   
+}
